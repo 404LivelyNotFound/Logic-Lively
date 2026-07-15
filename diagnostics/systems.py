@@ -1,3 +1,5 @@
+import platflorm
+import psutil
 def get_system_info():
     """Get basic system information."""
     print_header("SYSTEM INFORMATION")
