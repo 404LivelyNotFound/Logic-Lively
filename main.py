@@ -8,7 +8,9 @@ import os
 import platform
 import psutil
 from datetime import datetime
-from diags system import get system info
+
+from diagnostics.systems import get_system_info
+
 def print_header(title):
     """Print a formatted section header."""
     print("\n" + "=" * 60)
