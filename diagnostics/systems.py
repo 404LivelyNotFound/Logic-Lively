@@ -1,5 +1,10 @@
 import platflorm
 import psutil
+def print_header(title):
+    """Print a formatted section header."""
+    print("\n" + "=" * 60)
+    print(f"  {title}")
+    print("=" * 60)
 def get_system_info():
     """Get basic system information."""
     print_header("SYSTEM INFORMATION")
